@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Engine Demo</title>
+    <link rel="stylesheet" href="/style-5f2a97bc6906dbb1.css" integrity="sha384-ctfz1lsfhV9ZKCzancQsoG0HTjcCAJ216PGDV6R4jW64fWHFneAf3QyaZXlqhMi8"/>
+    
+<script type="module">
+import init, * as bindings from '/web-leptos-a231961755ab911d.js';
+const wasm = await init({ module_or_path: '/web-leptos-a231961755ab911d_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+<link rel="modulepreload" href="/web-leptos-a231961755ab911d.js" crossorigin="anonymous" integrity="sha384-FwpqNeWtTjEeS0zxLn9+1DIgco+j0tK+L+QkcK7YJvF9CbxweT42/5XxRr0niqFB"><link rel="preload" href="/web-leptos-a231961755ab911d_bg.wasm" crossorigin="anonymous" integrity="sha384-WSGnwn8pwNmLJkR0vAeCUZkyFS47sCe8G1EoEuJS2fAw4zwe9YrR6jCWWo+w7Nh/" as="fetch" type="application/wasm"></head>
+<body></body>
+</html>
