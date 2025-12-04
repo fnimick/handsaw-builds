@@ -240,20 +240,20 @@ export function main() {
     wasm.main();
 }
 
-function __wasm_bindgen_func_elem_5159(arg0, arg1, arg2) {
-    wasm.__wasm_bindgen_func_elem_5159(arg0, arg1, addHeapObject(arg2));
-}
-
-function __wasm_bindgen_func_elem_4857(arg0, arg1) {
-    wasm.__wasm_bindgen_func_elem_4857(arg0, arg1);
-}
-
 function __wasm_bindgen_func_elem_7261(arg0, arg1, arg2) {
     wasm.__wasm_bindgen_func_elem_7261(arg0, arg1, addHeapObject(arg2));
 }
 
+function __wasm_bindgen_func_elem_5159(arg0, arg1, arg2) {
+    wasm.__wasm_bindgen_func_elem_5159(arg0, arg1, addHeapObject(arg2));
+}
+
 function __wasm_bindgen_func_elem_5158(arg0, arg1) {
     wasm.__wasm_bindgen_func_elem_5158(arg0, arg1);
+}
+
+function __wasm_bindgen_func_elem_4857(arg0, arg1) {
+    wasm.__wasm_bindgen_func_elem_4857(arg0, arg1);
 }
 
 function __wasm_bindgen_func_elem_7335(arg0, arg1, arg2, arg3) {
